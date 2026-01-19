@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Тело знает</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    :root{
+      --bg:#ffffff;
+      --text:#111827;
+      --muted:#6b7280;
+      --line:#e5e7eb;
+      --soft:#f3f4f6;
+      --btn:#0f172a;
+      --btnText:#ffffff;
+      --radius:16px;
+      --shadow:0 18px 45px rgba(17,24,39,.08);
+    }
+
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      background:var(--bg);
+      color:var(--text);
+      font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;
+      line-height:1.75;
+    }
+
+    .wrap{
+      max-width:900px;
+      margin:0 auto;
+      padding:40px 18px 70px;
+    }
+
+    .card{
+      background:#fff;
+      border:1px solid var(--line);
+      border-radius:20px;
+      box-shadow:var(--shadow);
+      overflow:hidden;
+    }
+
+    .content{
+      padding:34px 32px 24px;
+    }
+
+    p{
+      margin:0 0 18px;
+      font-size:17px;
+    }
+
+    h2{
+      margin:30px 0 12px;
+      font-size:20px;
+      font-weight:600;
+      letter-spacing:-0.02em;
+    }
+
+    ul{
+      margin:12px 0 20px 22px;
+    }
+
+    li{
+      margin:8px 0;
+      font-size:16.5px;
+    }
+
+    .divider{
+      height:1px;
+      background:var(--line);
+      margin:26px 0;
+    }
+
+    .note{
+      background:#f9fafb;
+      border:1px solid var(--line);
+      border-radius:16px;
+      padding:16px;
+      margin:22px 0;
+    }
+
+    /* CTA */
+    .cta{
+      margin:34px 0 10px;
+      padding:22px;
+      background:var(--soft);
+      border:1px solid var(--line);
+      border-radius:20px;
+    }
+
+    .ctaRow{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:16px;
+      flex-wrap:wrap;
+    }
+
+    .price{
+      font-size:18px;
+      color:#111827;
+      font-weight:500;
+    }
+
+    .price span{
+      font-weight:600;
+    }
+
+    .btn{
+      background:var(--btn);
+      color:var(--btnText);
+      text-decoration:none;
+      padding:14px 22px;
+      border-radius:14px;
+      font-weight:600;
+      font-size:16px;
+      white-space:nowrap;
+      text-align:center;
+    }
+
+    .btn:hover{opacity:.92}
+
+    .ctaText{
+      margin-top:12px;
+      font-size:14px;
+      color:var(--muted);
+    }
+
+    /* Footer */
+    footer{
+      padding:18px 32px 26px;
+      border-top:1px solid var(--line);
+      font-size:14px;
+      color:var(--muted);
+      display:flex;
+      gap:18px;
+      flex-wrap:wrap;
+    }
+
+    footer a{
+      color:var(--muted);
+      text-decoration:none;
+    }
+
+    footer a:hover{
+      text-decoration:underline;
+    }
+
+    @media (max-width:600px){
+      .content{padding:26px 20px}
+      footer{padding:16px 20px}
+      .btn{width:100%}
+      .ctaRow{width:100%}
+    }
+  </style>
+</head>
+
+<body>
+  <div class="wrap">
+    <article class="card">
+
+      <main class="content">
+
+        <p>Иногда с телом начинает происходить что-то странное. Напряжение, которое не проходит. Ком в горле. Боль в спине. Тошнота по утрам. Постоянная усталость. Тревога без причины.</p>
+        <p>Врачи разводят руками. Анализы в норме. А внутри — ощущение, что с вами что-то не так. Или что вы просто перестали понимать себя.</p>
+        <p>Если вы читаете этот текст, скорее всего, вам это знакомо.</p>
+        <p>И самое сложное в таких состояниях — не сам симптом. А чувство неопределённости. Когда непонятно, что именно происходит и куда с этим идти.</p>
+
+        <div class="divider"></div>
+
+        <h2>Почему тело начинает говорить</h2>
+        <p>Психосоматика — это не мистика и не эзотерика. Это про то, что психологические переживания, которые человек долго не проживает, не выражает или подавляет, со временем находят выход через тело.</p>
+        <p>Стресс, страх, подавленные эмоции, внутренние конфликты, жизнь на автомате, постоянное напряжение — всё это накапливается. И в какой-то момент тело начинает сигнализировать.</p>
+
+        <div class="divider"></div>
+
+        <h2>Я знаю это не только из книг</h2>
+        <p>В школьном возрасте, на фоне развода родителей, я впервые потеряла сознание. И вы не представляете, что началось дальше.</p>
+        <p>Насмешки, страх учителей, диагноз эпилепсия, годы ограничений, десятки врачей, препараты, надежды, которые не оправдывались.</p>
+        <p>Нельзя было оставаться одной. Нельзя было спокойно жить. Тело держало меня в постоянном напряжении.</p>
+        <p>Это длилось около десяти лет. Пока я не поняла, что так дальше нельзя.</p>
+        <p>Я начала собирать знания годами, проверяя их на себе. И шаг за шагом вышла в выздоровление. Сейчас этой проблемы в моей жизни нет уже много лет.</p>
+
+        <div class="divider"></div>
+
+        <p>У меня MBA европейского вуза по психологии, и я сертифицированный психосоматолог. Я работаю с пониманием того, как психика, эмоции и тело связаны между собой в реальной жизни.</p>
+
+        <div class="divider"></div>
+
+        <p>Курс «Тело знает» — это пять уроков в записи и одно дополнительное занятие-практика.</p>
+
+        <ul>
+          <li>если вы не понимаете, что с вами происходит</li>
+          <li>если тело живёт в напряжении и симптомах</li>
+          <li>если вы устали от ощущения, что тело мешает жить</li>
+          <li>если вы хотите выздоровления и готовы попробовать разобраться</li>
+        </ul>
+
+        <div class="note">
+          Это спокойный и бережный формат, который помогает наладить контакт с собой и своим состоянием.
+        </div>
+
+        <h2>Что вы получите</h2>
+        <ul>
+          <li>понимание, откуда берутся симптомы</li>
+          <li>базу психосоматических проявлений</li>
+          <li>практики для сложных состояний</li>
+          <li>навык слышать тело раньше, чем оно начинает «кричать»</li>
+        </ul>
+
+        <div class="divider"></div>
+
+        <p>Все материалы доступны в записи. Вы проходите курс в своём темпе — тогда, когда вам комфортно.</p>
+
+        <h2>Если не подойдёт</h2>
+        <p>Если вы поймёте, что это не ваш формат, я верну деньги в течение семи дней после покупки. Без вопросов.</p>
+
+        <div class="cta">
+          <div class="ctaRow">
+            <div class="price">Цена курса: <span>485 грн</span></div>
+            <a class="btn" href="https://example.com/pay">Оплатить и получить доступ</a>
+          </div>
+          <div class="ctaText">
+            Доступ открывается сразу после оплаты через Telegram-бот. Продажа курса открыта ограниченное время.
+          </div>
+        </div>
+
+        <p>Тело действительно знает. Важно только начать его слушать.</p>
+
+      </main>
+
+      <footer>
+        <a href="/terms.html">Terms of Service</a>
+        <a href="/privacy.html">Privacy Policy</a>
+      </footer>
+
+    </article>
+  </div>
+</body>
+</html>
